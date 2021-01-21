@@ -106,7 +106,7 @@ function removeLastFlavor(array){
    array.pop();
    return array;
 }
-console.log(originalFlavors);
+console.log(removeLastFlavor(originalFlavors));
 
 
 
@@ -124,7 +124,7 @@ Use the getFlavorByIndex function below to do the following:
 function getFlavorByIndex(array, index){
     return array[index];
 }
-console.log(originalFlavors, 2);
+console.log(getFlavorByIndex(originalFlavors, 2));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -146,7 +146,7 @@ function removeFlavorByName(array,flavor){
     array.splice(array.indexOf(flavor), 1);
     return array;
 }
-console.log(originalFlavors, "Rocky Road");
+console.log(removeFlavorByName(originalFlavors, "Rocky Road"));
 
 
 
