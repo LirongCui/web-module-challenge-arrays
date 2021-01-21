@@ -65,10 +65,10 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 */
 
 
-function is31Flavors(array,total){
-    return Boolean(array.length == total);
+function is31Flavors(array){
+    return Boolean(array.length == 31);
 }
-console.log(is31Flavors(originalFlavors,31));
+console.log(is31Flavors(originalFlavors));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -143,8 +143,7 @@ Use the removeFlavorByName function below to do the following:
 */
 
 function removeFlavorByName(array,flavor){
-    i = array.indexOf(flavor);
-    array.splice(i, 1);
+    array.splice(array.indexOf(flavor), 1);
     return array;
 }
 console.log(originalFlavors, "Rocky Road");
