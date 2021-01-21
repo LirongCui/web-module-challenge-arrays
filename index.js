@@ -84,11 +84,11 @@ Use the addFlavor function below to do the following:
 */
 
 
-function addFlavor(newFlavor, array){
+function addFlavor(array,newFlavor){
     array.unshift(newFlavor);
     return array;
 }
-console.log(addFlavor("Rainbow Sherbert", originalFlavors));
+console.log(addFlavor(originalFlavors, "Rainbow Sherbert"));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
